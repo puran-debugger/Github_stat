@@ -61,7 +61,7 @@ jobs:
     - name: Commit to the repo
       run: |
         git config --global user.name "puran-debugger/Github_stat"
-        git config --global user.email "Github_stat[bot]@puran-debugger.github.io"
+        git config --global user.email "puran@seas.upenn.edu"
         git add .
         # "echo" returns true so the build succeeds, even if no changed files
         git commit -m 'Update generated files' || echo
